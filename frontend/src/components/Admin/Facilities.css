@@ -1,0 +1,117 @@
+.f-main-container {
+    min-width: 100%;
+    display: block;
+    min-height: 100vh;
+    background-color: #e9ecef;
+}
+
+.f-container {
+    padding-top: 2vh;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-container .f-card {
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10px;
+    padding: 16px;
+    border: 3px solid #2581E6;
+    background-color: #fff;
+}
+
+.f-container .f-card .f-form {
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-container .f-card .f-right-side {
+    /* background-color: #efecf2; */
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: contents;
+}
+.f-form{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.f-hello {
+    text-align: center;
+    color: #2a2739;
+}
+.f-btn {
+  margin-top: 15px;
+}
+.f-input_text {
+    position: relative;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.f-btn button {
+  height: 45px;
+  border: none;
+  outline: 0;
+  background-color: #2581e6;
+  border-radius: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.f-btn button:hover {
+  background-color: #1565c0;
+}
+
+.f-input_text p {
+  margin-top: 4px;
+  font-size: 13px;
+  margin-left: 10px;
+  color: red;
+}
+
+.f-warning {
+  border: 1px solid red !important;
+}
+.f-danger {
+  color: 'red';
+}
+
+.f-input_text p i {
+  margin-right: 2px;
+}
+.f-input_text input[type='text'] {
+  height: 45px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 13px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.f-input_text input[type='number'] {
+  height: 45px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 13px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}

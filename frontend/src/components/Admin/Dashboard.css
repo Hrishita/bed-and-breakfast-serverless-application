@@ -1,0 +1,9 @@
+
+.d-bg-container{
+    background-color: #e9ecef;
+  }
+  .d-container{
+    min-width: 100%;
+    display: block;
+    min-height: 800px;
+  }

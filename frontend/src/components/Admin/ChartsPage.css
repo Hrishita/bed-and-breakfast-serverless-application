@@ -1,0 +1,11 @@
+.upcontainer {
+    margin: 5px;
+    padding: 5px;
+}
+.upgridcard {
+    border: 3px solid #2581E6;
+}
+.uptitle{
+    color: #2581E6;
+    font-weight: 900;
+}

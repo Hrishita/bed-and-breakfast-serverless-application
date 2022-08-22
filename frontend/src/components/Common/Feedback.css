@@ -1,0 +1,92 @@
+.fed-main-container {
+    min-width: 100%;
+    display: block;
+    min-height: 100vh;
+    background-color: #e9ecef;
+}
+
+.fed-container {
+    padding-top: 2vh;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.fed-container .fed-card {
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10px;
+    padding: 16px;
+    border: 3px solid #2581E6;
+    background-color: #fff;
+}
+
+.fed-container .fed-card .fed-form {
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.fed-form .h2{
+  align-items: center;
+}
+.success-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #21b43a;
+  padding: 15px;
+  color: white;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid gray;
+  font-family: "Roboto", sans-serif;
+}
+
+.fed-form span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+.fed-form input {
+  background: #f2f2f2;
+}
+
+.fed-error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+.fed-form button {
+  height: 45px;
+  border: none;
+  width: 30%;
+  outline: 0;
+  background-color: #2581e6;
+  border-radius: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.fed-form button:hover {
+  background-color: #1565c0;
+}
+
+.fed-form h2{
+  text-align: center;
+}
+.fed-form button:disabled {
+  cursor: default;
+}
